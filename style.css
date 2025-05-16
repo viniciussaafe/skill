@@ -1,0 +1,40 @@
+ body {
+     background: radial-gradient(ellipse at center, #0b0a1e, #130f40, #0a0a0a);
+     font-family: 'Courier New', Courier, monospace;
+     color: #e0e0ff;
+ }
+
+ canvas {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -1;
+ }
+
+ .card-skill {
+     background: linear-gradient(135deg, rgba(95, 2, 160, 0.2), rgba(0, 132, 255, 0.15));
+     border: 1px solid rgba(255, 255, 255, 0.08);
+     backdrop-filter: blur(6px);
+     transition: transform 0.3s ease;
+ }
+
+ .card-skill:hover {
+     background: linear-gradient(135deg, #7f00ff, #00cfff);
+     color: white;
+     transform: scale(1.05);
+     box-shadow: 0 0 10px #7f00ff, 0 0 20px #00cfff;
+ }
+
+ h1 {
+     text-shadow: 0 0 8px #7f00ff, 0 0 12px #00cfff;
+ }
+
+ h1::after {
+     content: '';
+     display: block;
+     width: 80px;
+     height: 4px;
+     background: linear-gradient(to right, #7f00ff, #00cfff, #fff);
+     margin: 8px auto 0;
+     border-radius: 2px;
+ }

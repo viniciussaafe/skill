@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Árvore de Habilidades" />
+    <meta name="keywords" content="desenvolvedor, habilidades, programação, tecnologia" />
+    <meta name="author" content="Vinicius Saafe" />
+    <title>Árvore de Habilidades</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="overflow-x-hidden">
+
+    <canvas id="bg"></canvas>
+    <canvas id="shooting-stars"
+        style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;pointer-events:none;"></canvas>
+
+    <header class="text-center py-10">
+        <h1 class="text-5xl font-bold text-white tracking-wide">Árvore de
+            Habilidades</h1>
+    </header>
+    <main class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6 pb-20">
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Linguagens
+            de Programação</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">HTML</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">CSS</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">JavaScript</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Java</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Python</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">PHP</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Node.js</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Lua</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Dart</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Assembly</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">TypeScript</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Tailwind
+            CSS</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">C#</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">C++</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Rust</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">R</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Framework
+        </div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">React</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">React
+            Native</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Angular</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Flutter</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Django</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Flask</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Bootstrap</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Laravel</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Spring
+            Boot</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Nest.js</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Next.js</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Framework7</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Banco
+            de Dados</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">MongoDB</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">PostgreSQL</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">MySQL</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">SQL</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Computação
+            em Nuvem</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Firebase</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Supabase</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">AWS</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Cloud</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Cursos</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Operador
+            de Computador</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Criação
+            de Sites</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Técnico
+            em Desenvolvimento de Sistemas</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Aprendizado
+            Industrial de Automóvel</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500 col-span-full">Faculdade
+        </div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Ciência
+            da Computação (Graduação)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Engenharia
+            de Software(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Inteligência
+            Artificial(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Robótica
+            e Automação(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Cibersegurança(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Desenvolvimento
+            de Jogos(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Computação
+            Gráfica e Realidade Aumentada / Virtual(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Data
+            Science e Big Data(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Engenharia
+            de Sistemas Embarcados(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Gestão
+            de Tecnologia e Inovação(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Blockchain
+            e Fintechs(pós)</div>
+        <div class="card-skill rounded-xl p-6 text-center shadow-xl transition duration-500">Inglês</div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
