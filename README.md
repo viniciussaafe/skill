@@ -49,19 +49,9 @@ Firebase, Supabase, AWS, Cloud
 - Operador de Computador
 - Criação de Sites
 - Aprendizado Industrial em manutenção de Automóveis
-- Graduação em Ciência da Computação (em andamento)
+- Graduação em ANÁLISE E DESENVOLVIMENTO DE SISTEMAS (em andamento)
 - Pós-graduações planejadas em:
   - Engenharia de Software
-  - Inteligência Artificial
-  - Robótica e Automação
-  - Cibersegurança
-  - Desenvolvimento de Jogos
-  - Realidade Aumentada / Virtual
-  - Data Science e Big Data
-  - Sistemas Embarcados
-  - Gestão de Tecnologia e Inovação
-  - Blockchain e Fintechs
-
 ---
 
 ## 📈 Próximos Passos
