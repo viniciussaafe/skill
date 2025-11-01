@@ -33,16 +33,16 @@ A apresentação das habilidades é feita através de uma interface organizada p
 ## 🛠️ Minhas Habilidades
 
 ### Linguagens de Programação
-HTML, CSS, JavaScript, Java, Python, PHP, Node.js, Lua, TypeScript, Tailwind CSS, C#, C++
+HTML, CSS, JavaScript, Java, Python, PHP, Node.js, Lua, TypeScript, Tailwind CSS
 
 ### Frameworks
 React, React Native, Angular, Vue.js, NumPy, Pandas, Django, Flask, Spring Boot, Nest.js, Next.js, Framework7
 
 ### Bancos de Dados
-MongoDB, PostgreSQL, MySQL, SQL
+MySQL
 
 ### Computação em Nuvem
-Firebase, Supabase, AWS, Cloud
+Firebase, Supabase
 
 ### Formação e Cursos
 - Técnico em Desenvolvimento de Sistemas
